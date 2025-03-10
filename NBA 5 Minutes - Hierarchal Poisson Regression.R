@@ -10,7 +10,7 @@ library(dplyr)
 
 ### Exploratory Data Analysis and Visualizations
 # download data
-nba5min = read.csv("shared-wndw-lnx-files/NBA Analysis/Bayesian/DifferentialNBAData.csv",header=TRUE)
+nba5min = read.csv("Data/DifferentialNBAData.csv",header=TRUE)
 
 head(nba5min)
 str(nba5min)
